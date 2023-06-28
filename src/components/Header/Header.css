@@ -1,0 +1,25 @@
+.navBar{
+    grid-area: Header;
+    top:0;
+    position: sticky;
+    z-index: 1;
+    border: 1px red solid;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.brand{
+    font-family: var(--TitleText);
+    font-size: 2em;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 1em;
+}
+a{
+    margin-right: 0.5em;
+    color: var(--text-color);
+}
