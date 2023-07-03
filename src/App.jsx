@@ -8,8 +8,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Footer />}></Route>
+        <Route index element={<Header />}></Route>
       </Routes>
+
     </>
   );
 }
