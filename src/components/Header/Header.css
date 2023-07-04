@@ -1,13 +1,11 @@
 .navBar{
-    grid-area: header;
     top:0;
     position: sticky;
     z-index: 1;
-    border: 1px red solid;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 0.2em;
 }
 .brand{
     font-family: var(--TitleText);
