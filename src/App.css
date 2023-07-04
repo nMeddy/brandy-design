@@ -11,12 +11,13 @@
 }
 
 #root {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: var(--mainText);
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 200px;
+  grid-template-areas: "Header" "Main" "Footer";
   height: 120vh;
   width: 100%;
 }
