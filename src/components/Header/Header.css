@@ -8,12 +8,25 @@
     align-items: center;
     padding-top: 2em;
     padding-bottom: 2em;
-    padding-inline-start: 15em;
-    padding-inline-end: 15em;
+    padding-inline-start: 10em;
+    padding-inline-end: 10em;
 }
 .brand{
     font-family: var(--TitleText);
     font-size: 2em;
+}
+.lineMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    height: 1em;
+}
+.underLine{
+    border-bottom: 1px var(--textColor) solid;
+    width: 30em;
+    display: flex;
+    align-self: end;
 }
 .nav-link{
     display: flex;
@@ -21,6 +34,10 @@
     justify-content: space-around;
     row-gap: 1em;
 }
+.logo-link > span{
+    font-size: 1em;
+    color: var(--textColor);
+} 
 a{
     margin-right: 0.5em;
     color: var(--textColor);
