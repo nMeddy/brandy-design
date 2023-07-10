@@ -1,0 +1,25 @@
+.LastPart{
+    grid-area: Four;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "Left" "Right";
+    align-items: center;
+}
+.left{
+    grid-area: "Left";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+@media screen and (max-width: 1000px) {
+    .LastPart {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+    }
+  }
