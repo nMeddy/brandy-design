@@ -1,11 +1,11 @@
 import './MainPart.css';
+import {Section3} from "../Section3/Section3";
 
 export default function MainPart (){
     return(
         <>
         <div className="Main">
-
-            <h1>MainPart</h1>
+            <Section3/>
         </div>
         </>
     )
