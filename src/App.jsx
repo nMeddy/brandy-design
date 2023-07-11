@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route index element={<NotreEquipe />}></Route>
       </Routes>
-
     </>
   );
 }
