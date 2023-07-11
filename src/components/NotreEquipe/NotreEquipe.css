@@ -1,0 +1,19 @@
+.bg-notreEquipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/bgquinousomme.jpg');
+    background-size: cover;
+    color: white;
+    height: 95vh;
+    width: 100%;
+}
+.bg-notreEquipe>p{
+    text-align: justify;
+    width: 90%;
+    
+}
+.contentCaroucel{
+        /* box-shadow: 0 2px 4px rgba(255, 255, 255, 0.4);    */
+        height: max-content;   
+}

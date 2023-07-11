@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('../../font/Quantify/Quantify.ttf') format('truetype')
+  }
+.bgHome{
+    display: flex;
+     width:80%;
+     margin: auto;
+    height: min-content; 
+    padding: 5%;
+    background-image: url('../../assets/backgroundhome.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 75vh;
+    color: white;
+    align-items: center;
+    /* font-size: 1.2em; */
+}
+.brandyDesign>h3{
+    font-size:1.5em;
+
+}
+.brandyDesign>h1{
+    font-family: Quantify;
+    font-size:4em;
+}
+.brandyDesign>button{
+    padding: 10px 30px;
+    /* background-color: white; */
+    border: none;
+    /* font-size: 1.02em; */
+}
+.romImgHome2,.romImgHome1,.romImgHome3{
+    display: flex;
+    padding: 10px 0 0 0;
+    align-items: flex-end;
+}
+.brandyDesign>p{
+    
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6{
+    width: 180px;
+}
+.imgHome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+
+}
+.brandyDesign{
+    width:50% ;
+}
+.img22{
+    margin-left: 10px;
+
+}
+.img2{
+    width: 150px;
+
+}
+.img66{
+    margin-left: 10px;
+
+}
+.img44{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+    transform: rotateY(180deg) ;
+    transition: 0.5s;
+    /* transform: ; */
+}
+.encadrementimg{
+    display: flex;
+    overflow: hidden;
+}
+.img1{
+    height: 80%;
+}
+.cool-button {
+    background-color: #42a5f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .cool-button:active {
+    animation: bounce 0.6s;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
