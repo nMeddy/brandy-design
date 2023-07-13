@@ -1,47 +1,61 @@
-.navBar{
-    grid-area: Header;
-    top:0;
-    position: sticky;
+.navBar {
+  grid-area: Header;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 10em;
+  padding-inline-end: 10em;
+}
+.brand {
+  font-family: var(--TitleText);
+  font-size: 2em;
+}
+.lineMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  height: 1em;
+}
+.underLine {
+  border-bottom: 1px var(--textColor) solid;
+  min-width: 30em;
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 1em;
+}
+.logo-link > span {
+  font-size: 1em;
+  color: var(--textColor);
+}
+a {
+  margin-right: 0.5em;
+  color: var(--textColor);
+}
+a:hover {
+  border-bottom: 1px var(--textColor) solid;
+}
+
+/* RESPONSIVE UI */
+@media screen and (max-width: 1100px) {
+  .navBar {
     z-index: 1;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-inline-start: 10em;
-    padding-inline-end: 10em;
-}
-.brand{
-    font-family: var(--TitleText);
-    font-size: 2em;
-}
-.lineMiddle{
+    grid-area: Header;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    height: 1em;
-}
-.underLine{
-    border-bottom: 1px var(--textColor) solid;
-    width: 30em;
-    display: flex;
-    align-self: end;
-}
-.nav-link{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    row-gap: 1em;
-}
-.logo-link > span{
-    font-size: 1em;
-    color: var(--textColor);
-} 
-a{
-    margin-right: 0.5em;
-    color: var(--textColor);
-}
-a:hover{
-    border-bottom: 1px var(--textColor) solid;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+  }
 }
